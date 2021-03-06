@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="clac.css">
+  <title>JS try</title>
+  <script type="text/javascript" src="test.js"></script>
+</head>
+<body>
+	<a href="index.html"><u><h4>HOME</h4></u></a>
+	
+		<h5><b>Enter number 1:</b><input type="number" name='a' id="a"></h5>
+		<br>
+		<h5><b>Enter number 2:</b><input type="number" name='b' id="b"></h5>
+		<br>
+		<br>
+	<div id='bb'>
+	<button id='addi' onclick="add(document.getElementById('a').value,document.getElementById('b').value)">ADD</button>
+	<button id='subi' onclick="sub(document.getElementById('a').value,document.getElementById('b').value)">SUB</button>
+	<br>
+	<br>
+	<button id='muli' onclick="mul(document.getElementById('a').value,document.getElementById('b').value)">MUL</button>
+	<button id='divi' onclick="div(document.getElementById('a').value,document.getElementById('b').value)">DIV</button>
+	</div>
+	<script type="text/javascript">
+		function add(a,b){
+	var sum=parseInt(a)+parseInt(b);
+	alert('result '+sum+' :}');
+}
+	function sub(a,b){
+	var sum=parseInt(a)-parseInt(b);
+	alert('result '+sum+' :}');
+}
+	function mul(a,b){
+	var sum=parseInt(a)*parseInt(b);
+	alert('result '+sum+' :}');
+}
+	function div(a,b){
+	var sum=parseInt(a)/parseInt(b);
+	alert('result '+sum+' :}');
+}
+	</script>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</html>

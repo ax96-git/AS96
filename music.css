@@ -1,0 +1,112 @@
+
+body{
+	background-image: url(wall2.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ font: italic 1.2em "Fira Sans", serif;
+ 	
+}
+h1 {
+	text-align: center;
+	color: #D72344;
+	font-size: 40px;
+}
+h1 a{
+	color: #D72344;
+}
+h2{
+	text-align: center;
+	border:#7D3C98 1px SOLID;
+	color: #ABEBC6;
+	position: center;
+
+	
+}
+
+.song {
+	text-align: center;
+	color: #C2185B;
+	line-height: 2.5em;
+}
+audio { 
+  box-shadow: 15px 15px 25px rgba(4,4, 4, 4);
+  border-radius: 90px;
+}
+.but {
+	text-align: center;
+	
+}
+
+a{
+	text-decoration: none;
+}
+.button{
+    padding:12px 18px; 
+    background:#ccc; 
+    border:1px SOLID;
+    cursor:pointer;
+    border-radius: 15px; 
+    width: 125px;
+    box-shadow: 10px 10px 15px rgba(2,2,2,4);
+    color: teal;
+    font-size: 15px;
+
+}
+.button:hover{
+	background-color: skyblue;
+
+}
+#my iframe{
+	width: 1300px;
+	height: 350px;
+	position: relative;
+	left: 25px;
+	
+	
+}
+#my h3{
+	text-align: center;
+	color: #D72344;
+	font-size: 25px;
+}
+img{
+	width:150px;
+	height:auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+footer h4{
+	text-align: center;
+	color: #990099;
+}
+footer h2{
+	color: #333399;
+}
+#frmcen h3{
+	text-align: center;
+	color: #D72344;
+
+}
+
+.dates button{
+	text-align: center;
+	padding:12px 18px; 
+    background:#ccc; 
+    border:1px SOLID;
+    cursor:pointer;
+    border-radius: 55px; 
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 10px 15px rgba(2,2,2,4);
+    color: teal;
+    font-size: 15px;
+}
+
+
+@media (min-width: 500px) and (max-width: 1800px) {
+    body {
+        background-image: url(wall1.jpg);
+    }
+}
