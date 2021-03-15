@@ -104,7 +104,10 @@ footer h2{
     font-size: 15px;
 }
 
-
+.cpi img{
+	width: 90%;
+	height: 500px;
+}
 @media (min-width: 500px) and (max-width: 1800px) {
     body {
         background-image: url(wall1.jpg);
