@@ -1,5 +1,5 @@
 body{
-	background-color: #fff;
+	background-color: #e2eaf2;
 	display: flex;
 }
 #top{
@@ -12,5 +12,15 @@ body{
 }
 #t3{
 	padding-top: 31px;
-	padding-left: 120px;
+	padding-left: 70px;
+}
+#t1{
+	padding-right: 15px;
+	padding-left: 350px;
+}
+.flex-container{
+	display: flex;
+}
+.main{
+	padding-right: 100px:;
 }
