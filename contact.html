@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+</head>
+<body>
+	<a href="https://ax96.ml/"><h1>Welcome to my Page</h1></a>
+	<div class="boxx">
+	<h3>Please fill form</h3>
+<form id="test-form">
+	<input type="text" name="Name" placeholder="NAME" required=""><br>
+	<input type="int" name="Num" placeholder="PH NO"><br>
+	<input type="email" name="Email" placeholder="E-mail" required=""><br>
+	<textarea name="Msg" placeholder="Enter Message" required=""></textarea><br>
+	<button type="submit" id="submit-form"><b>SUBMIT</b></button>
+</form>
+</div>
+</body>
+<script type="text/javascript">
+	var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/abcdefghijklmnopqrstuvwxyz1234567890/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    
+  );
+})
+</script>
+</html>
