@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+</head>
+<body>
+	<a href="https://ax96.ml/"><h1>Welcome to my Page</h1></a>
+	<div class="boxx">
+	<h3>Please fill form</h3>
+<form name="contact-ax96"  autocomplete="off" method="post">
+	<input type="text" name="Name" placeholder="NAME" required=""><br>
+	<input type="int" name="Num" placeholder="PH NO"><br>
+	<input type="email" name="Email" placeholder="E-mail" required=""><br>
+	<textarea name="Msg" placeholder="Enter Message" required=""></textarea><br>
+	 <button  type="submit" name="submit" ><b>SUBMIT</b></button>
+</div>
+<script >
+	if  {}
+</script>
+<script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwgG1j1FX_muFY0WRvEUeDtUVv_Hp87DYT45_T7SrhjozWR8ES74fKq-0jlFayD3AYe/exec'
+            const form = document.forms['contact-ax96']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+              	.then(submit => window.location="send.html")
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+</body>
+</html>
