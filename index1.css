@@ -1,7 +1,10 @@
 
 body{
 	margin: 1%;
-	background-color:#F2F4FF;
+	background-image: url(ax.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-attachment: fixed;
 }
 header{
 	display: flex;
